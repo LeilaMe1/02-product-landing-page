@@ -11,23 +11,28 @@ body {
 /* Hero Section */
 .hero {
   text-align: center;
-  background-color: #eaf6ff; /* soft light blue background */
+  background: linear-gradient(#eaf6ff, #a089c2); /* soft light blue background */
+  padding: 20px 20px;
 }
 
 .hero img {
   border-radius: 50%;
   border: solid 4px #16213e;
-  margin-bottom: 20px;
+  /*margin-bottom: 10px;*/
+  /*margin-top: 20px;*/
+  width: 200px;
 }
 
 .hero h1 {
-  margin: 20px 0 10px;
+  margin: 10px 0 10px;
   color: #16213e;
+  font-size: 36px;
 }
 
 .hero p {
   margin: 10px 0 20px;
-  color: #555;
+  color: #343434;
+  font-size: 20px;
 }
 
 .hero button {
@@ -35,7 +40,10 @@ body {
   color: #fff;
   border: none;
   border-radius: 10px;
+  padding: 10px 10px;
   cursor: pointer;
+  /*margin-bottom: 20px;*/
+  font-size: 1.1em;
 }
 
 .hero button:hover {
@@ -61,6 +69,7 @@ body {
 .how-it-works h2 {
   margin-top: 0;
   margin-bottom: 20px;
+  font-size: 32px;
   color: #0f3460
 }
 
@@ -93,6 +102,7 @@ strong {
 
 .features h2 {
   margin-bottom: 20px;
+  font-size: 32px;
   color: #1a1a2e;
 }
 
@@ -112,4 +122,16 @@ strong {
 .features li strong {
   display: block;
   margin-bottom: 5px;
+}
+
+.marquee {
+  background-color: #eaf6ff;
+  font-size: 20px;
+}
+.marquee ul {
+  list-style:none;
+}
+.marquee li {
+  display:inline;
+  margin: 10px;
 }
